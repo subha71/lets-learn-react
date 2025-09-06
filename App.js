@@ -1,22 +1,33 @@
-import React from "react";
+//JSX react
 import ReactDOM from "react-dom/client";
-// const heading = React.createElement("h1", {id: "heading"}, "Hello Created my first react code") //{} is for giving attributes to a class
-// const root = ReactDOM.createRoot(document.getElementById("root"))
-// root.render(heading) //render take on object and convert to tag and also replace is already anything
 
-// to Add nested elements
-// const parent = React.createElement("div", {id: "parent"}, React.createElement("div", {id: "child"},
-//     React.createElement("h1", {id: "heading"}, "Tried nested elements")
-// ))
-// const root = ReactDOM.createRoot(document.getElementById("root"))
-// root.render(parent)
+// //React Element
+// const jsxHeading = (<h1 id="heading" 
+//     className= "test">
+//         Namaste React with JSX</h1>);
 
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(jsxHeading);
 
-//to Add siblings put it in array
-const parent = React.createElement("div", {id: "parent"}, React.createElement("div", {id: "child"},
-    [React.createElement("h1", {id: "heading", key: "h1"}, "Tried nested elements"),
-        React.createElement("h2", {id: "heading2", key: "h2"}, "Tried sibbling")]
-    )
+//React component
+const number = 100;
+const Element1 = (
+    <h1> Trying element inside component</h1>
 )
-const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(parent)
+const Title = () => (
+    <div id="container">
+        <h1>Namste react using JSX</h1>
+        <h2>{number}</h2>
+    </div>
+);
+
+const HeadingComponent = () => (
+    <div>
+        {Element1}
+        <Title />
+    <h1> Namaste React functional component</h1>
+    </div>
+);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<HeadingComponent />);
