@@ -1,7 +1,60 @@
-#heading{
-    color: red
+.header {
+  display: flex;
+  justify-content: space-between; /* pushes logo left, nav right */
+  align-items: center;            /* vertically center logo & nav */
+  padding: 10px 20px;    
+  margin: 20px;
+  border-bottom: 2px solid #ccc;
+  background: rgb(199, 86, 49);
 }
 
-#heading2{
-    color: blue
+.logo {
+  height: 100px;
+  width: 100px;  /* adjust size as you like */
 }
+
+.nav-items ul {
+  display: flex;
+  list-style: none; /* remove bullets */
+  gap: 20px;        /* space between items */
+  margin: 0;
+  padding: 0;
+  font-size: 20px
+}
+
+.nav-items li {
+  cursor: pointer;
+}
+
+.restraunt-logo {
+  height: 100px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.body {
+    padding: 10px 20px; 
+}
+
+.restraunt-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* allows wrapping to next line */
+    padding: 20px;
+}
+
+.restraunt-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px; /* fixed width for uniformity */
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
+.restraunt-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+.restraunt-card li {
+    margin: 5px 0;
+}   
