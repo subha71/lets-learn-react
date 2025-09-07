@@ -65,3 +65,8 @@ const HeadingComponent = () => (
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<HeadingComponent />);
 we can also call functional component like this {Title()}
+
+we should always pass a key in props if you dont pass react re-renders everything from the start  and all key should be unique
+
+import {CDN_URL_1, CDN_URL_2} from "../utils/constants" #to impoort variables
+for every import export is neded

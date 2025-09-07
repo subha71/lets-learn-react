@@ -1,0 +1,3 @@
+export const LOGO_URL = "https://img.freepik.com/premium-vector/savorbite-kitchen-food-company-logo-design_1059123-403.jpg"
+export const CDN_URL_1 = "https://bonmasala.com/wp-content/uploads/2022/10/mutton-biriyani-recipe.jpeg"
+export const CDN_URL_2 ="https://images.unsplash.com/photo-1585032226651-759b368d7246?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpbmVzZSUyMGZvb2R8ZW58MHx8MHx8fDA%3D"

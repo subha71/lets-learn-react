@@ -14,3 +14,17 @@
  allows to host in https
  tree shaking - remove unused code
  different dev and prod bundles
+
+ /**
+ * Header
+ * -logo
+ * -nav items
+ * Body
+ * -search
+ * -restaurant container
+ *   -restaurant card
+ * footer
+ * -copyright
+ * -links
+ * -address
+ */
